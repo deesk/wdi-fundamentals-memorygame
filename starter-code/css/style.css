@@ -1,8 +1,5 @@
 
-body{
-	text-align: center;
 
-}
 
 nav{
 	background-color: #808080;
@@ -12,7 +9,8 @@ nav a{
 	background-color: #ffbf00;
 	color: #ffffff;
 	padding: 35px;
-	display: inline-block;
+	text-decoration: none;
+	display: iblock;
 	float: left;
 }
 
@@ -31,15 +29,21 @@ nav a:hover {
 
 h1{
 	color: rgb(2,132,130);
+	text-align: center;
 }
 
 h2 {
 	color: #ffd700;
+	text-align: center;
+}
+
+p {
+	text-align: center;
 }
 
 .board{
 	display: inline-block;
-	height: 50%;
+	height: 80%;
 	width: 50%;
 }
 
@@ -47,11 +51,8 @@ h2 {
 	height: 200px;
 	width: 150px;
 	border: solid black 1px;
-	background-color: yellow;
+	background-color: #ffff00;
 	border-radius: 10px;
-}
-
-.board div{
 	float: left;
 	margin: 8%;
 }
@@ -62,4 +63,5 @@ h2 {
 
 footer{
 	background-color: #808080;
+	text-align: center;
 }
